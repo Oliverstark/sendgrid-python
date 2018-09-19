@@ -1,0 +1,6 @@
+echo "export SENDGRID_API_KEY='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'" > sendgrid.env
+echo "sendgrid.env" >> .gitignore
+source ./sendgrid.env
+sudo apt-get python-pip
+sudo pip install sendgrid
+sudo vi test.py
